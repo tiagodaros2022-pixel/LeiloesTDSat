@@ -123,7 +123,7 @@ public class ProdutosDAO {
 
     String sql = "SELECT * FROM produtos WHERE status = 'Vendido'";
 
-    conn = new conectaDAO().conectaBD();
+    conn = new conectaDAO().connectDB();
 
     ArrayList<ProdutosDTO> listaVendidos = new ArrayList<>();
 
